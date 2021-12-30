@@ -1,4 +1,4 @@
-local file = "input"
+local file = "../INPUT/02"
 
 local hor = 0
 local dep = 0

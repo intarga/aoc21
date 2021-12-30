@@ -1,4 +1,4 @@
-local file = "input"
+local file = "../INPUT/01"
 
 local increases = -1
 local depth = 0

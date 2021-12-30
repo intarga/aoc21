@@ -47,7 +47,7 @@ local function get_epsilon(acc)
     return epsilon
 end
 
-local acc = reduce_digits(count_digits("input"))
+local acc = reduce_digits(count_digits("../INPUT/03"))
 local gamma = get_gamma(acc)
 local epsilon = get_epsilon(acc)
 
@@ -114,8 +114,8 @@ local co2rule = function(acc)
     return delete_on
 end
 
-local o2 = bin_to_dec(reduce_entries(read_to_table("input"), o2rule))
-local co2 = bin_to_dec(reduce_entries(read_to_table("input"), co2rule))
+local o2 = bin_to_dec(reduce_entries(read_to_table("../INPUT/03"), o2rule))
+local co2 = bin_to_dec(reduce_entries(read_to_table("../INPUT/03"), co2rule))
 
 print("part2:", o2 * co2)
 

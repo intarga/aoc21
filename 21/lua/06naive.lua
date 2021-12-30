@@ -1,4 +1,4 @@
-file = "input"
+file = "../INPUT/06"
 
 fish = {}
 

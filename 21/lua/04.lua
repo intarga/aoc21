@@ -1,4 +1,4 @@
-file = "input"
+file = "../INPUT/04"
 
 function read_draws(file)
     local lines = io.lines(file)

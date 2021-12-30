@@ -1,5 +1,5 @@
-file = "input"
--- file = "test_input"
+file = "../INPUT/07"
+-- file = "../INPUT/07_test"
 
 io.input(file)
 input = io.read("*all")

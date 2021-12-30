@@ -11,7 +11,7 @@ pairDepths3 :: [Int] -> [(Int, Int)]
 pairDepths3 depths = zip depths $ drop 3 depths
 
 main = do
-    contents <- readFile "input"
+    contents <- readFile "../INPUT/01"
     let part1 = show . countIncreases . pairDepths . readInts $ contents
     let part2 = show . countIncreases . pairDepths3 . readInts $ contents
     print $ "part1: " ++ part1
